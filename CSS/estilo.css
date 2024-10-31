@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curriculo-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #9c006b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1em;
+    margin: 2px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #9c006b;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f9;
+    color: #777;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #9c006b;
+    text-decoration: none;
+}
+
+.mail {
+    color: #f4f4f9;
+    text-decoration: none;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.what {
+    height: 54px;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .what {
+        display: none;
+    }
+}
